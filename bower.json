@@ -1,0 +1,23 @@
+{
+	"name": "ko.dateText",
+	"main": [
+		"dist/ko.dateText.min.js",
+		"dist/ko.dateText.d.ts"
+	],
+	"ignore": [
+		"**/.*",
+		"bowerLibs",
+		"gulpfile.js",
+		"gulpfiles",
+		"package.json",
+		"tsconfig.json",
+		"tslint.json",
+		"typings.json",
+		"*.sln",
+		"*.csproj"
+	],
+	"dependencies": {
+		"knockout": "*",
+		"vt.dateFormat": "https://github.com/variotry/ts.dateFormat.git#development"
+	}
+}
